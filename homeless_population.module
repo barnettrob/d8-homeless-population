@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * Hook functions.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function homeless_population_theme() {
+  return [
+    'homeless_demographics' => [
+      'variables' => [
+        'homelessData' => array(),
+      ],
+    ]
+  ];
+}

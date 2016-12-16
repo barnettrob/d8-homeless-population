@@ -1,0 +1,6 @@
+homeless:
+  path: /homeless
+  defaults:
+    _controller: Drupal\homeless_population\Controller\HomelessPopulationController::homelessStats
+  requirements:
+    _permission: 'access content'

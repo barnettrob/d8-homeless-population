@@ -1,0 +1,3 @@
+services:
+  homeless.nyc.population.yearly:
+    class: Drupal\homeless_population\Services\HomelessNewYorkCityJson

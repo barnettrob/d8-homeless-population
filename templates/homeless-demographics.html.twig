@@ -1,0 +1,18 @@
+{# Template to display Homeless population for NYC #}
+<h1>{{ homelessData.meta.view.name }}</h1>
+<h2>{{ homelessData.meta.view.description }}</h2>
+
+{% for data in homelessData.data %}
+    <div class="label">Year:</div>
+    <div class="city-year">
+        {{ data.8 }}
+    </div>
+    <div class="label">Location:</div>
+    <div class="city-area">
+        {{ data.9 }}
+    </div>
+    <div class="label">#:</div>
+    <div class="homeless-number">
+        {{ data.10 }}
+    </div>
+{% endfor %}

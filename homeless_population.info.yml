@@ -1,0 +1,5 @@
+name: Homeless Population
+type: module
+description: 'Detail NYC homeless population between 2009 and 2012'
+package: Demographics
+core: '8.x'
